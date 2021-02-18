@@ -1,3 +1,5 @@
+@import '../../fonts/FontFaces';
+
 .footerHeight {
     height: 40px;
 }
@@ -9,6 +11,12 @@
     text-align: center;
     line-height: 40px;
     font-weight: 150;
+}
+
+.copyrightDescription {
+    font-family: 'inerta-thin';
+    font-size: 11px;
+    letter-spacing: 1px;
 }
 
 .outerFooter {

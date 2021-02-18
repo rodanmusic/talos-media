@@ -1,5 +1,7 @@
+@import '../../fonts/FontFaces';
+
 .innerHeader {
-    background-color: white;
+    // background-color: white;
     height: 300px;
 }
 
@@ -13,4 +15,41 @@
 .headerImage {
     max-width: 100%;
     max-height: 100%;
+    z-index: 0;
+}
+
+.overallHeader {
+    position: relative;
+}
+
+.socialMediaLinksContainer {
+    z-index: 100;
+}
+
+.socialMediaButtons {
+    
+}
+
+.socialMediaContainer {
+    width: 100%;
+    color: white;
+    padding-top: 10px;
+    position: absolute;
+    top: 12px;
+}
+
+.logoContainer {
+    width: 100%;
+    color: white;
+    position: absolute;
+    line-height: 300px;
+    top: -14px;
+}
+
+.headerLogo {
+    color: white;
+    text-shadow: 1px 1px 3px #2d2d2d;
+    font-family: 'inerta-regular';
+    font-size: 68px;
+    letter-spacing: -10px;
 }
