@@ -1,7 +1,6 @@
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
-import Head from 'next/head'
-import { Container, StylesProvider } from '@material-ui/core';
+import Head from 'next/head';
 import Styles from './Layout.module.scss';
 
 const Layout = props => (

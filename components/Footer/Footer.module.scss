@@ -6,8 +6,7 @@
 
 .innerFooter {
     @extend .footerHeight;
-    background-color: black;
-    color: white;
+    background-color: white;
     text-align: center;
     line-height: 40px;
     font-weight: 150;
@@ -17,12 +16,13 @@
     font-family: 'inerta-thin';
     font-size: 11px;
     letter-spacing: 1px;
+    color: black;
 }
 
 .outerFooter {
     @extend .footerHeight;
     position: absolute;
     bottom: 0;
-    background-color: black;
+    background-color: white;
     width: 100vw;
 }   

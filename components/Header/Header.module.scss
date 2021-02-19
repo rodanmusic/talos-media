@@ -6,7 +6,7 @@
 }
 
 .outerHeader {
-    background-color: black;
+    background-color: white;
     width: 100vw;
     height: 100%;
     overflow: hidden;
@@ -22,14 +22,6 @@
     position: relative;
 }
 
-.socialMediaLinksContainer {
-    z-index: 100;
-}
-
-.socialMediaButtons {
-    
-}
-
 .socialMediaContainer {
     width: 100%;
     color: white;
@@ -43,13 +35,27 @@
     color: white;
     position: absolute;
     line-height: 300px;
-    top: -14px;
+    top: -2px;
 }
 
 .headerLogo {
     color: white;
-    text-shadow: 1px 1px 3px #2d2d2d;
+    text-shadow: 2px 2px 3px #2d2d2d;
     font-family: 'inerta-regular';
     font-size: 68px;
     letter-spacing: -10px;
+}
+
+.leftSocialMediaLinks {
+    @extend .imageOpacity;
+    padding-left: 150px;   
+}
+
+.rightSocialMediaLinks {
+    @extend .imageOpacity;
+    padding-right: 150px;
+}
+
+.imageOpacity {
+    opacity: .5;
 }
