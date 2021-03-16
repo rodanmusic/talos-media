@@ -1,4 +1,4 @@
-let Article = () => {
+const Article = () => {
     return (
         <>
             Article

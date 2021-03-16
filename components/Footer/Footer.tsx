@@ -1,7 +1,7 @@
 import Styles from './Footer.module.scss'
 import { Container } from '@material-ui/core';
 
-let Footer = () => {
+const Footer = () => {
     return (
         <div className={Styles.outerFooter}>
             <Container maxWidth='sm' className={Styles.innerFooter}>

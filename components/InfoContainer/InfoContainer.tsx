@@ -1,4 +1,4 @@
-let InfoContainer = () => {
+const InfoContainer = () => {
     return (
         <div>Info Container</div>
     )

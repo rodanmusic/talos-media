@@ -1,5 +1,7 @@
+import Layout from '../../components/Layout/Layout'
+
 const About = () => (
-  <div>About</div>
+  <Layout>About</Layout>
 );
   
 export default About;
