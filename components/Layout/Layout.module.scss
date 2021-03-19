@@ -2,8 +2,10 @@
     width: 100%;
 }
 
-.contentHeight {
+.content {
     min-height: 400px;
+    max-width: 960px;
+    margin-top: 10px;
 }
 
 .mainContainer {

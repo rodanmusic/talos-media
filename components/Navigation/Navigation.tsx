@@ -6,7 +6,7 @@ const navLinks = ['HOME', 'ABOUT', 'EVENTS', 'MEDIA', 'PRODUCTS', 'CONTACT'];
 
 const useStyles = makeStyles({
     root: {
-      backgroundColor: 'black',
+      backgroundColor: '#705f7a',
       fontFamily: 'inerta-thin',
       borderRadius: '0px',
       opacity: .7,

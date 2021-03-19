@@ -2,6 +2,7 @@ import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import Head from 'next/head';
 import Styles from './Layout.module.scss';
+import { Container } from '@material-ui/core';
 
 const Layout = props => (
     <div className={Styles.mainContainer}>
@@ -13,9 +14,9 @@ const Layout = props => (
         </Head>          
         <div className={Styles.layout}>
             <Header />
-            <div className={Styles.contentHeight}>
-                {props.children}
-            </div>  
+                <Container disableGutters maxWidth='md' className={Styles.content}>
+                    {props.children}
+                </Container>
             <Footer />
         </div>
     </div>

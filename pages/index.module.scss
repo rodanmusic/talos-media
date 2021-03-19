@@ -1,0 +1,14 @@
+@import '../fonts/FontFaces';
+
+.font {
+    font-family: 'inerta-thin';
+}
+
+.newsletterContent {
+    @extend .container;
+    background-color: #5f697a;
+}
+
+.container {
+    margin-top: 30px;
+}

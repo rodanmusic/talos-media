@@ -11,19 +11,19 @@ const Header = () => {
                     <Image priority={true} className={Styles.headerImage} quality={100} src='/images/skyscraperfaded.jpg' width='1920' height='943' layout='intrinsic' alt='Header image of city streets'></Image>                    
                     <Grid container item xs={12} direction='row' className={Styles.socialMediaContainer}>
                         <Grid container item className={Styles.leftSocialMediaLinks} xs={6} justify='flex-start'>
-                            <Grid item>
+                            <Grid item className={Styles.facebookIcon}>
                                 <a href="https://www.facebook.com/c0ldstorage"><Image priority={true} quality={100} src='/images/socialMedia/facebook.png' width='50' height='50' layout='intrinsic' alt='Facebook'></Image></a>    
                             </Grid>
                             <Grid item>
-                                <Image priority={true} quality={100} src='/images/socialMedia/tiktok.png' width='50' height='50' layout='intrinsic' alt='Tik Tok'></Image>                                    
+                            <a href="https://www.tiktok.com/@c0ldstorage"><Image priority={true} quality={100} src='/images/socialMedia/tiktok.png' width='50' height='50' layout='intrinsic' alt='Tik Tok'></Image></a>                                    
                             </Grid>
                         </Grid>
                         <Grid container item className={Styles.rightSocialMediaLinks} xs={6} justify='flex-end'>   
                             <Grid item>
-                                <Image priority={true} quality={100} src='/images/socialMedia/youtube.png' width='50' height='50' layout='intrinsic' alt='Twitch'></Image>    
+                                <a href="https://www.youtube.com/channel/UCMosQE51m6ed3GuYkp1OrSg"><Image priority={true} quality={100} src='/images/socialMedia/youtube.png' width='50' height='50' layout='intrinsic' alt='Twitch'></Image></a>    
                             </Grid>
-                            <Grid item>
-                                <Image priority={true} quality={100} src='/images/socialMedia/twitch.png' width='50' height='50' layout='intrinsic' alt='c0ldstorage'></Image>    
+                            <Grid item className={Styles.facebookIcon}>
+                                <a href="https://www.twitch.tv/c0ldstorage"><Image priority={true} quality={100} src='/images/socialMedia/twitch.png' width='50' height='50' layout='intrinsic' alt='c0ldstorage'></Image></a>
                             </Grid>
                         </Grid>
                     </Grid>    
