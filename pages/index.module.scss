@@ -7,8 +7,9 @@
 .newsletterContent {
     @extend .container;
     background-color: #5f697a;
+    height: 300px;
 }
 
 .container {
-    margin-top: 30px;
+    margin-top: 20px;
 }
