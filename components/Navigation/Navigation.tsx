@@ -1,23 +1,23 @@
 import { Container, Grid, Button } from '@material-ui/core';
 import { makeStyles } from "@material-ui/core/styles";
-import Link from 'next/link'
+import Link from 'next/link';
 
 const navLinks = ['HOME', 'ABOUT', 'EVENTS', 'MEDIA', 'PRODUCTS', 'CONTACT'];
 
 const useStyles = makeStyles({
     root: {
-      backgroundColor: '#705f7a',
-      fontFamily: 'inerta-thin',
-      borderRadius: '0px',
-      opacity: .7,
-      '&:hover': {
-        backgroundColor: 'grey'
-      },
-      '& span': {
-        color: 'white',
-      }
+        backgroundColor: '#ededed',
+        fontFamily: 'inerta-medium',
+        borderRadius: '0px',
+        opacity: .7,
+        '&:hover': {
+            backgroundColor: 'black',
+            '& span': {
+                color: 'white' 
+            }
+        }
     }
-  });
+});
 
 const Navigation = () => {
     const classes = useStyles();
